@@ -1,0 +1,76 @@
+## Basic Configuration
+title: "Crystal Down Schema"
+description: "Custom Schema for Crystal Down"
+url: "https://cd-schema.tk"
+destination: docs
+exclude:
+  - "Makefile"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE.md"
+  - "README.md"
+  - "**/*.xcf"
+  - "**/.*"
+  - "**/.map"
+  - "_theme"
+include:
+  - "_headers"
+  - "_redirects"
+permalink: pretty
+
+### Copyright
+copyright:
+  license: <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+  name: Thai “0xReki” Chung
+  url: https://0xreki.de
+
+
+### SASS
+sass:
+  style: compressed
+  cache: false
+
+## SEO
+twitter:
+  username: CrystalDown
+  creator: 0xReki
+  card: summary
+webmaster_verifications:
+  - name: seobility
+    key: efc87fbbcdcf8f61c070bbcc23dab8b1
+  - name: yandex-verification
+    key: 323210d55347b761
+
+# Optimizations
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: ["unpublished"]
+  blanklines: false
+  profile: false
+  startings: []
+preload:
+  fonts:
+  - /assets/fonts/Marcellus-Regular.woff2
+  - /assets/fonts/Source-Sans-Pro-Regular.woff2
+
+liquid:
+  error_mode: warn
+
+# Syntax
+markdown: kramdown
+
+defaults:
+  - # /
+    scope:
+      path: ""
+    values:
+      lang: "en-CA"
+      author: reki
+      publisher: reki
+      comments: false
+      layout: 2020/schema
+      additional_css: schema
+      image: /assets/images/site-og.png
