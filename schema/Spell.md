@@ -11,12 +11,17 @@ properties:
     property: /element
     rangeIncludes: 
       - /ElementType
-    comment: Elemental types of Magic associated with a spell
+    comment: An elemental type associated with the spell.
   - 
     property: /effect
     rangeIncludes: 
       - /EffectType
-    comment: Effect types of Magic associated with a spell
+    comment: An effect type associated with the spell.
+  - 
+    property: /invocation
+    rangeIncludes: 
+      - /InvocationType
+    comment: an invocation method associated with the spell.
 super-properties:
   - 
     class: https://schema.org/Thing

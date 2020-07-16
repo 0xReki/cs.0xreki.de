@@ -9,17 +9,17 @@ properties:
     property: /ediblePart
     rangeIncludes: 
       - https://schema.org/Text
-    comment: A part of the biomass that is is edible.
+    comment: A part of the biomass that is edible.
   - 
     property: /poisonousPart
     rangeIncludes: 
       - https://schema.org/Text
-    comment: A part of the biomass that is is poisonous.
+    comment: A part of the biomass that is poisonous.
   - 
     property: /venomousPart
     rangeIncludes: 
       - https://schema.org/Text
-    comment: A part of the biomass that is is venomous.
+    comment: A part of the biomass that is venomous.
   - 
     property: /rarity
     rangeIncludes: 
@@ -29,7 +29,7 @@ properties:
     property: /habitat
     rangeIncludes: 
       - https://schema.org/Place
-    comment: The habitat the biomass.
+    comment: The habitat of the biomass.
     
 super-properties:
   - 

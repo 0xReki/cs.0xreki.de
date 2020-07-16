@@ -11,7 +11,7 @@ properties:
     property: /adventurerRank
     rangeIncludes: 
       - /GuildRank
-    comment: The adventurer guild rank level of a person.
+    comment: The adventurer guild rank level of the person.
   - 
     property: /race
     rangeIncludes: 

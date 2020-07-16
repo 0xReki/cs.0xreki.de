@@ -11,17 +11,17 @@ properties:
     property: /diet
     rangeIncludes:
       - /DietType
-    comment: The type of diet of the monster
+    comment: The type of diet of the monster.
   - 
     property: /weakness
     rangeIncludes: 
       - /ElementType
-    comment: A elemental weakness of the monster.
+    comment: An elemental weakness of the monster.
   - 
     property: /resistance
     rangeIncludes: 
       - /ElementType
-    comment: A elemental resistance of the monster.
+    comment: An elemental resistance of the monster.
   - 
     property: /threatLevel
     rangeIncludes: 
@@ -34,17 +34,17 @@ super-properties:
         property: /ediblePart
         rangeIncludes: 
           - https://schema.org/Text
-        comment: A part of the monster that is is edible.
+        comment: A part of the monster that is edible.
       - 
         property: /poisonousPart
         rangeIncludes: 
           - https://schema.org/Text
-        comment: A part of the monster that is is poisonous.
+        comment: A part of the monster that is poisonous.
       - 
         property: /venomousPart
         rangeIncludes: 
           - https://schema.org/Text
-        comment: A part of the monster that is is venomous.
+        comment: A part of the monster that is venomous.
       - 
         property: /rarity
         rangeIncludes: 
