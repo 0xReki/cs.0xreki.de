@@ -24,6 +24,9 @@ copyright:
   name: Thai “0xReki” Chung
   url: https://0xreki.de
 
+plugins:
+  - jekyll-last-modified-at
+  - jekyll-wns
 
 ### SASS
 sass:
