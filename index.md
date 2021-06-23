@@ -1,6 +1,6 @@
 ---
 title: Custom Schema
-layout: 2020/home
+layout: 2020/schema-home
 ---
 # Custom Schema
 
