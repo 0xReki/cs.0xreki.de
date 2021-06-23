@@ -13,7 +13,7 @@ properties:
       - /GuildRank
     comment: The adventurer guild rank level of the person.
   - 
-    property: /race
+    property: /species
     rangeIncludes: 
       - https://schema.org/Text
     comment: The race of the person, e.g. Ailuranthrope.
