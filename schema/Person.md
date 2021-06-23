@@ -16,7 +16,7 @@ properties:
     property: /species
     rangeIncludes: 
       - https://schema.org/Text
-    comment: The race of the person, e.g. Ailuranthrope.
+    comment: The species of the person, e.g. Ailuranthrope.
 super-properties:
   - 
     class: https://schema.org/Person
