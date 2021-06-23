@@ -1,7 +1,7 @@
 ## Basic Configuration
 title: "Custom Schema"
 description: "Custom Schema for Creative Writing"
-url: "https://sc.0xreki.de"
+url: "https://cs.0xreki.de"
 destination: docs
 exclude:
   - "Makefile"
