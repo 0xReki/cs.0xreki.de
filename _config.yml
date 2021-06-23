@@ -1,7 +1,7 @@
 ## Basic Configuration
-title: "Crystal Down Schema"
-description: "Custom Schema for Crystal Down"
-url: "https://cd-schema.tk"
+title: "Custom Schema"
+description: "Custom Schema for Creative Writing"
+url: "https://sc.0xreki.de"
 destination: docs
 exclude:
   - "Makefile"
@@ -22,7 +22,7 @@ permalink: pretty
 copyright:
   license: <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
   name: Thai “0xReki” Chung
-  url: https://0xreki.de
+  url: https://0xreki.de/about-me/
 
 plugins:
   - jekyll-last-modified-at
@@ -35,8 +35,7 @@ sass:
 
 ## SEO
 twitter:
-  username: CrystalDown
-  creator: 0xReki
+  username: 0xReki
   card: summary
 webmaster_verifications:
   - name: seobility
