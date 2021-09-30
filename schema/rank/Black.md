@@ -10,5 +10,5 @@ subclass-chain:
   - https://schema.org/Enumeration
 class-comment: |
   The black guild rank. This is the highest guild rank. 
-  The next lower guild rank is <a href="/Orihalcum" class="context-cd">Orihalcum</a>.
+  The next lower guild rank is <a href="/Orihalcum" class="context-cs">Orihalcum</a>.
 ---

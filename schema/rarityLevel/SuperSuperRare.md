@@ -10,5 +10,5 @@ subclass-chain:
   - https://schema.org/Enumeration
 class-comment: |
   The super super rare rarity level. This is the highest rarity. 
-  The next lower rarity is <a href="/SuperRare" class="context-cd">SuperRare</a>.
+  The next lower rarity is <a href="/SuperRare" class="context-cs">SuperRare</a>.
 ---

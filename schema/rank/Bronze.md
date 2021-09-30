@@ -10,5 +10,5 @@ subclass-chain:
   - https://schema.org/Enumeration
 class-comment: |
   The bronze guild rank. This is the lowest guild rank.
-  The next higher guild rank is <a href="/Silver" class="context-cd">Silver</a>.
+  The next higher guild rank is <a href="/Silver" class="context-cs">Silver</a>.
 ---

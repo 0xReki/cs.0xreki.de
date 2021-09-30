@@ -10,6 +10,6 @@ subclass-chain:
   - https://schema.org/Enumeration
 class-comment: |
   The super rare rarity level. This is the secound highest rarity. 
-  The next lower rarity is  <a href="/Rare" class="context-cd">Rare</a>.
-  The next higher rarity is <a href="/SuperSuperRare" class="context-cd">SuperSuperRare</a>.
+  The next lower rarity is  <a href="/Rare" class="context-cs">Rare</a>.
+  The next higher rarity is <a href="/SuperSuperRare" class="context-cs">SuperSuperRare</a>.
 ---

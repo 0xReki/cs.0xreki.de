@@ -10,5 +10,5 @@ subclass-chain:
   - https://schema.org/Enumeration
 class-comment: |
   The common rarity level. This is the lowest rarity. 
-  The next higher rarity is <a href="/Rare" class="context-cd">Rare</a>.
+  The next higher rarity is <a href="/Rare" class="context-cs">Rare</a>.
 ---

@@ -22,7 +22,7 @@ permalink: pretty
 copyright:
   license: <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
   name: Thai “0xReki” Chung
-  url: https://0xreki.de/about-me/
+  url: https://reki.wtf/about-me/
 
 plugins:
   - jekyll-last-modified-at
@@ -73,6 +73,6 @@ defaults:
       author: reki
       publisher: reki
       comments: false
-      layout: 2020/schema
+      layout: 2021/schema
       additional_css: schema
       image: /assets/images/site-og.png

@@ -1,6 +1,6 @@
 ---
 title: Custom Schema
-layout: 2020/schema-home
+layout: 2021/schema-home
 ---
 # Custom Schema
 
@@ -13,11 +13,11 @@ layout: 2020/schema-home
 <ul>{% for page in pages %}
  {% unless page.subclass-of contains 'schema' %}{% continue %}{% endunless %}
   <li>
-    <a href="{{ page.url }}" class="context-cd">{{ page.title }}</a>
+    <a href="{{ page.url }}" class="context-cs">{{ page.title }}</a>
     {% assign subpages = site.pages | where: 'subclass-of', page.url %}
     <ul>{% for subpage in subpages %}
       <li>
-        <a href="{{ subpage.url }}" class="context-cd">{{ subpage.title }}</a>
+        <a href="{{ subpage.url }}" class="context-cs">{{ subpage.title }}</a>
       </li>{% endfor %}
     </ul>
   </li>{% endfor %}
@@ -29,6 +29,6 @@ layout: 2020/schema-home
   | where: "type", "Property" %}
 
 <ul>{% for page in pages %}
-  <li><a href="{{ page.url }}" class="context-cd">{{ page.title }}</a></li>{% endfor %}
+  <li><a href="{{ page.url }}" class="context-cs">{{ page.title }}</a></li>{% endfor %}
 </ul>
 <!-- markdownlint-enable MD033 -->
